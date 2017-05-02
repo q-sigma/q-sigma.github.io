@@ -1,5 +1,5 @@
 var gallerymodal = document.getElementById('galleryModal');
-var gallerybtn = document.getElementById("galleryBtn");
+var gallerybtn = document.getElementById("gallery");
 var galleryclose = document.getElementsByClassName("galleryClose")[0];
 gallerybtn.onclick = function() {
     gallerymodal.style.display = "block";
