@@ -24,7 +24,7 @@ ul {
 li {
     float: left;
 }
-li a {
+li button {
     display: block;
     color: white;
     text-align: center;
