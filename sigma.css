@@ -1,17 +1,20 @@
-body {
-    background-color: #000000;
+* {
+    font-family: "Times New Roman", Georgia, Serif;
 }
 h1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+body {
+    background-color: #bfbfbf;
     text-align: center;
+}
+.blackBox {
+    background-color: black;
     color: white;
+    font-style: italic;
 }
-h2 {
-    color: white;
-}
-p {
-    text-indent: 50px;
-}
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,28 +24,26 @@ ul {
     top: 0;
     width: 100%;
 }
-li {
+.navbarItem {
     float: left;
+    font-size: 20px;
+    font-weight: 5px;
 }
-li a {
+.navbarItem a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover:not(.active) {
+.navbarItem a:hover:not(.active) {
     background-color: #111;
-}
-#btn {
-    color: black;
-    border-color: black;
 }
 .active {
     background-color: #4CAF50;
 }
-#intro {
-  color: #FFFFFF;
+.floatLeft {
+    text-align: left;
 }
 .modal {
     display: none;
@@ -74,4 +75,10 @@ li a:hover:not(.active) {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+a:link, a:visited, a:hover {
+    color:white;
+}
+a:visited {
+    color: green;
 }
