@@ -1,14 +1,14 @@
-var gallerymodal = document.getElementById('galleryModal');
-var gallerybtn = document.getElementById("gallerybtn");
-var close = document.getElementsByClassName("close")[0];
-gallerybtn.onclick = function() {
-    gallerymodal.style.display = "block";
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
 }
-close.onclick = function() {
-    gallerymodal.style.display = "none";
+span.onclick = function() {
+    modal.style.display = "none";
 }
 window.onclick = function(event) {
-    if (event.target == gallerymodal) {
-        gallerymodal.style.display = "none";
-    }
-}
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+} 
