@@ -3,7 +3,6 @@ body {
 }
 h1 {
     text-align: center;
-    color: white;
 }
 h2 {
     color: white;
@@ -41,9 +40,13 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-#intro {
+#home {
   color: #FFFFFF;
 }
+#gallery {
+    background-color: #333;
+    color: blue;
+}   
 .modal {
     display: none;
     position: fixed;
