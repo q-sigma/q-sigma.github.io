@@ -45,7 +45,6 @@ li a:hover:not(.active) {
 }
 #gallery {
     background-color: #333;
-    color: #00ffff;
 }   
 .modal {
     display: none;
