@@ -44,9 +44,13 @@ li a:hover:not(.active) {
   color: #FFFFFF;
 }
 #gallery {
+    background-color: #e60000;
+    color: #000000;
+}   
+#about {
     background-color: #333;
     color: #FFFFFF;
-}   
+}
 .modal {
     display: none;
     position: fixed;
