@@ -43,10 +43,12 @@ li a:hover:not(.active) {
 #gallery {
     background-color: #e60000;
     color: #000000;
+    margin-bottom: -25px;
 }   
 #info {
     background-color: #333;
     color: #FFFFFF;
+    margin-bottom: -25px;
 }
 .modal {
     display: none;
