@@ -44,6 +44,7 @@ li a:hover:not(.active) {
     background-color: #e60000;
     color: #000000;
     margin-bottom: -25px;
+    font-size: 20px;
 }   
 #info {
     background-color: #333;
