@@ -49,7 +49,6 @@ li a:hover:not(.active) {
 #info {
     background-color: #333;
     color: #FFFFFF;
-    margin-bottom: -25px;
     font-size: 20px;
 }
 .modal {
